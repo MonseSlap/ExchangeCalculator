@@ -27,7 +27,7 @@ function CalculatorForm({
       />
 
       {/* Input: Tasa de cambio */}
-      <label htmlFor="exchangeRate">Tasa de cambio:</label>
+      <label htmlFor="exchangeRate">Tasa de compra:</label>
       <input
         type="number"
         id="exchangeRate"
@@ -36,7 +36,7 @@ function CalculatorForm({
           const value = Math.max(0, parseFloat(e.target.value) || 0);
           onExchangeRateChange(value);
         }}
-        placeholder="Introduce la tasa de cambio"
+        placeholder="Introduce la tasa de compra"
       />
 
       {/* Input: Tasa de venta */}

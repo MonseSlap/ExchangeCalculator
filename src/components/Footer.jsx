@@ -65,6 +65,7 @@ const Footer = ({ onShowDocumentation }) => {
           <div className="footer-section">
             <h4>Legal</h4>
             <p>© A&M Calculator {new Date().getFullYear()}</p>
+            <p>Beta 1.0.1</p>
             <p>Todos los derechos reservados <br />Developed by <a href="https://github.com/MonseSlap">@MonseSlap</a></p>
             <button 
                onClick={onShowDocumentation} 
