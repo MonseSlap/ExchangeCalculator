@@ -110,8 +110,7 @@ function App() {
       </div>
       
       <Footer 
-  onShowDocumentation={() => {
-    console.log("Mostrando modal"); // ← Esto debe aparecer al hacer clic
+  onShowDocumentation={() => { 
     setIsModalOpen(true);
   }} 
 />
